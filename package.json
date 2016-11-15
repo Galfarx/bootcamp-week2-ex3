@@ -1,0 +1,25 @@
+{
+  "name": "basic_template",
+  "version": "1.0.0",
+  "description": "Basic template for working in Front-end Bootcamp",
+  "main": "index.js",
+  "author": "Dominik Kubis",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
+    "del": "^2.2.2",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.1.1",
+    "handlebars": "^4.0.5",
+    "jquery": "^3.1.1",
+    "merge2": "^1.0.2"
+  },
+  "scripts": {
+    "install": "gulp"
+  }
+}

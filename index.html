@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Starter Template for Bootcamp projects</title>
+
+    <link href="dist/styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+    <a class="navbar-brand" href="#">dkubis</a>
+    <ul class="nav navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <h1 class="text-lg-center">Ajax adder</h1>
+
+    <form class="js_form form-inline text-lg-center">
+        <button type="submit" class="btn btn-default">Pobierz dane</button>
+    </form>
+
+    <ul class="js_list"></ul>
+
+</div>
+
+<script id="li-template" type="text/x-handlebars-template">
+    <li>
+        <strong>Name: </strong>{{ name }},
+        <strong>Username: </strong>{{ username }},
+        <strong>Email: </strong>{{ email }},
+        <strong>Phone: </strong>{{ phone }}</li>
+</script>
+<script src="dist/scripts/script.js"></script>
+</body>
+</html>
